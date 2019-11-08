@@ -30,7 +30,7 @@ Route::get('/SPRINT-pegadaian-kelas-b',function(){
 Route::get('/test',function(){
     return redirect()->Route('PegB');
 });
-Route::get('/create',function(){
+Route::get('/contactus',function(){
     return view('users.create');
 });
 
